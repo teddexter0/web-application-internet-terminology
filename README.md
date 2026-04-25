@@ -1,5 +1,15 @@
 # Internet Terminology Website
 
+A multi-page HTML/CSS website explaining fundamental internet concepts for a Web Application unit.
+
+## Author
+Sande Ted Dexter
+
+## Features
+- 19 interlinked pages
+- Consistent navigation
+- Visual diagrams per concept
+
 ## Description
 This project is a vanilla HTML and CSS multi-page website that explains 19 internet and web terminology concepts using clear definition, role, and analogy sections on separate pages.
 
