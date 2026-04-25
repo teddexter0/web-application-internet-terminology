@@ -3,7 +3,7 @@
 A multi-page HTML/CSS website explaining key internet concepts using definitions, roles, and analogies.
 
 ##  Author
-Sande Ted Dexter
+Sande Ted Dexter😏
 
 ##  Features
 - 19 interlinked pages  
@@ -23,7 +23,4 @@ web-application-internet-terminology/
 - index.html
 - css/style.css
 - pages/
-- images/
-
-##  Note
-Image sources are intentionally left empty and will be added manually.
+- images/ 
