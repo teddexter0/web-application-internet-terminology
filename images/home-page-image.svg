@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Internet Terminology homepage illustration</title>
+  <desc id="desc">An abstract diagram showing connected internet terms around a browser window.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d3b8e" />
+      <stop offset="100%" stop-color="#b71f3b" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#eef4ff" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" fill="url(#bg)" rx="36" />
+  <circle cx="160" cy="120" r="110" fill="#f1c40f" opacity="0.22" />
+  <circle cx="1040" cy="560" r="140" fill="#ffffff" opacity="0.08" />
+
+  <g stroke="#ffffff" stroke-opacity="0.26" stroke-width="4" fill="none">
+    <path d="M185 210 L440 220 L600 150 L820 220 L1010 180" />
+    <path d="M200 480 L430 420 L610 520 L830 430 L1015 505" />
+    <path d="M305 335 L600 150 L905 330" />
+    <path d="M300 355 L600 520 L900 345" />
+  </g>
+
+  <g transform="translate(330 145)">
+    <rect x="0" y="0" width="540" height="330" rx="28" fill="url(#panel)" />
+    <rect x="0" y="0" width="540" height="54" rx="28" fill="#dfe8ff" />
+    <circle cx="36" cy="27" r="9" fill="#b71f3b" />
+    <circle cx="64" cy="27" r="9" fill="#f1c40f" />
+    <circle cx="92" cy="27" r="9" fill="#0d3b8e" />
+    <rect x="38" y="98" width="210" height="120" rx="22" fill="#0d3b8e" opacity="0.95" />
+    <rect x="276" y="98" width="226" height="28" rx="14" fill="#d5def5" />
+    <rect x="276" y="148" width="196" height="20" rx="10" fill="#e7edf9" />
+    <rect x="276" y="184" width="178" height="20" rx="10" fill="#e7edf9" />
+    <rect x="276" y="220" width="160" height="20" rx="10" fill="#e7edf9" />
+    <text x="58" y="148" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">WWW</text>
+    <text x="58" y="186" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="22">HTTP</text>
+    <text x="58" y="218" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="22">DNS</text>
+    <text x="40" y="288" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Internet Terminology</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(180 210)">
+      <circle r="76" fill="#ffffff" opacity="0.94" />
+      <text y="-10" fill="#0d3b8e" font-size="22" font-weight="800">Browser</text>
+      <text y="22" fill="#37517e" font-size="18">View pages</text>
+    </g>
+    <g transform="translate(1015 180)">
+      <circle r="76" fill="#ffffff" opacity="0.94" />
+      <text y="-10" fill="#0d3b8e" font-size="22" font-weight="800">Server</text>
+      <text y="22" fill="#37517e" font-size="18">Hosts files</text>
+    </g>
+    <g transform="translate(190 495)">
+      <circle r="76" fill="#ffffff" opacity="0.94" />
+      <text y="-10" fill="#0d3b8e" font-size="22" font-weight="800">URL</text>
+      <text y="22" fill="#37517e" font-size="18">Web address</text>
+    </g>
+    <g transform="translate(1010 505)">
+      <circle r="76" fill="#ffffff" opacity="0.94" />
+      <text y="-10" fill="#0d3b8e" font-size="22" font-weight="800">DNS</text>
+      <text y="22" fill="#37517e" font-size="18">Name lookup</text>
+    </g>
+  </g>
+</svg>
