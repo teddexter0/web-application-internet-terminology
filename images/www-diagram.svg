@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">World Wide Web diagram</title>
+  <desc id="desc">A browser, a globe, and linked web pages showing how the World Wide Web connects information.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4f8ff" />
+      <stop offset="100%" stop-color="#fff5f7" />
+    </linearGradient>
+    <linearGradient id="globe" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d3b8e" />
+      <stop offset="100%" stop-color="#1749aa" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" fill="url(#bg)" rx="36" />
+  <circle cx="1040" cy="110" r="110" fill="#f1c40f" opacity="0.2" />
+  <circle cx="130" cy="590" r="120" fill="#b71f3b" opacity="0.08" />
+
+  <g transform="translate(85 140)">
+    <rect width="330" height="210" rx="26" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <rect width="330" height="42" rx="26" fill="#dfe8ff" />
+    <circle cx="28" cy="21" r="7" fill="#b71f3b" />
+    <circle cx="50" cy="21" r="7" fill="#f1c40f" />
+    <circle cx="72" cy="21" r="7" fill="#0d3b8e" />
+    <text x="34" y="92" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Web Browser</text>
+    <text x="34" y="130" fill="#334e7f" font-family="Segoe UI, Arial, sans-serif" font-size="20">Requests pages with URLs</text>
+    <text x="34" y="166" fill="#334e7f" font-family="Segoe UI, Arial, sans-serif" font-size="20">Then displays HTML content</text>
+  </g>
+
+  <g transform="translate(470 110)">
+    <circle cx="150" cy="150" r="145" fill="url(#globe)" />
+    <ellipse cx="150" cy="150" rx="108" ry="145" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.72" />
+    <ellipse cx="150" cy="150" rx="54" ry="145" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.72" />
+    <path d="M10 150h280M36 92h228M36 208h228" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.72" />
+    <text x="150" y="158" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle">WWW</text>
+  </g>
+
+  <g transform="translate(820 108)">
+    <rect width="280" height="140" rx="24" fill="#ffffff" stroke="#f0d7de" stroke-width="6" />
+    <text x="30" y="62" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Page A</text>
+    <path d="M30 88h190M30 112h150" stroke="#d8e1f2" stroke-width="14" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(840 320)">
+    <rect width="260" height="140" rx="24" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="30" y="62" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Page B</text>
+    <path d="M30 88h170M30 112h140" stroke="#d8e1f2" stroke-width="14" stroke-linecap="round" />
+  </g>
+
+  <g fill="none" stroke="#b71f3b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M415 245 C450 245, 470 230, 490 220" />
+    <path d="M760 210 C810 205, 840 195, 860 178" />
+    <path d="M760 300 C820 320, 860 345, 875 360" />
+    <path d="M230 370 C355 420, 460 420, 540 330" stroke="#0d3b8e" />
+  </g>
+
+  <g fill="#b71f3b">
+    <polygon points="483,212 507,222 486,235" />
+    <polygon points="852,170 872,182 848,193" />
+    <polygon points="867,350 885,366 860,372" />
+  </g>
+  <g fill="#0d3b8e">
+    <polygon points="531,323 548,335 524,341" />
+  </g>
+
+  <text x="600" y="565" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="middle">The World Wide Web links pages and resources across the internet.</text>
+</svg>
