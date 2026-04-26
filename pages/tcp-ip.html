@@ -54,8 +54,19 @@
       <p class="intro-copy">This page explains TCP/IP using its definition, role, and analogy.</p>
     </section>
 
-    <section class="image-block">
-      <img src="../images/tcp-ip-diagram.svg" alt="Diagram for TCP/IP" class="term-image">
+    <section class="image-block tcp-slideshow" data-slideshow-interval="5000" aria-label="TCP/IP slideshow">
+      <div class="slideshow-viewport">
+        <div class="slideshow-track" data-slideshow-track>
+          <img src="../images/tcp-ip-diagram.svg" alt="Diagram for TCP/IP showing packet delivery between sender and receiver" class="term-image" data-slide>
+          <img src="../images/tcp-layers-diagram.svg" alt="Diagram for TCP and IP layers with arrows showing how data moves between them" class="term-image" data-slide>
+          <img src="../images/osi-model-diagram.svg" alt="Diagram for the OSI model with seven layers and their roles" class="term-image" data-slide>
+        </div>
+      </div>
+      <div class="slideshow-dots" aria-hidden="true">
+        <span class="slideshow-dot is-active"></span>
+        <span class="slideshow-dot"></span>
+        <span class="slideshow-dot"></span>
+      </div>
     </section>
 
     <section class="content-panel">

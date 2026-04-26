@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">TCP and IP layered view</title>
+  <desc id="desc">A layered diagram showing TCP/IP layers with short functions and arrows indicating data flow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef4ff" />
+      <stop offset="100%" stop-color="#fff7f9" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" rx="36" fill="url(#bg)" />
+  <circle cx="1060" cy="120" r="110" fill="#f1c40f" opacity="0.18" />
+  <circle cx="130" cy="560" r="120" fill="#0d3b8e" opacity="0.08" />
+
+  <g transform="translate(120 95)">
+    <text x="470" y="28" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle">TCP/IP layers and what they do</text>
+
+    <g transform="translate(0 72)">
+      <rect width="520" height="92" rx="22" fill="#b71f3b" />
+      <text x="34" y="40" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Application</text>
+      <text x="34" y="70" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="20">HTTP, FTP, DNS: services users and apps actually use</text>
+    </g>
+
+    <g transform="translate(0 184)">
+      <rect width="520" height="92" rx="22" fill="#0d3b8e" />
+      <text x="34" y="40" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Transport</text>
+      <text x="34" y="70" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="20">TCP splits data, orders it, checks delivery, and retries if needed</text>
+    </g>
+
+    <g transform="translate(0 296)">
+      <rect width="520" height="92" rx="22" fill="#1749aa" />
+      <text x="34" y="40" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Internet</text>
+      <text x="34" y="70" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="20">IP handles addressing and routing across networks</text>
+    </g>
+
+    <g transform="translate(0 408)">
+      <rect width="520" height="92" rx="22" fill="#f1c40f" />
+      <text x="34" y="40" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Network Access</text>
+      <text x="34" y="70" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="20">Ethernet or Wi-Fi moves the bits over the local link</text>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#0d3b8e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M710 205 C770 205, 790 205, 840 205" />
+    <path d="M710 317 C770 317, 790 317, 840 317" />
+    <path d="M710 429 C770 429, 790 429, 840 429" />
+    <path d="M970 260 V300" />
+    <path d="M970 372 V412" />
+  </g>
+  <g fill="#0d3b8e">
+    <polygon points="830,195 852,205 830,215" />
+    <polygon points="830,307 852,317 830,327" />
+    <polygon points="830,419 852,429 830,439" />
+    <polygon points="960,290 970,312 980,290" />
+    <polygon points="960,402 970,424 980,402" />
+  </g>
+
+  <g transform="translate(860 140)">
+    <rect width="220" height="120" rx="22" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="110" y="50" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Data</text>
+    <text x="110" y="82" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">message from app</text>
+  </g>
+  <g transform="translate(860 252)">
+    <rect width="220" height="120" rx="22" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="110" y="50" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Segments</text>
+    <text x="110" y="82" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">TCP pieces data</text>
+  </g>
+  <g transform="translate(860 364)">
+    <rect width="220" height="120" rx="22" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="110" y="50" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Packets</text>
+    <text x="110" y="82" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">IP adds addresses</text>
+  </g>
+
+  <text x="600" y="635" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">As data moves down the stack, each layer adds what is needed for delivery.</text>
+</svg>

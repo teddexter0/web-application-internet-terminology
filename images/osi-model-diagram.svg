@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">OSI model diagram</title>
+  <desc id="desc">A seven-layer OSI model with brief labels and examples connected to TCP/IP ideas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff9ef" />
+      <stop offset="100%" stop-color="#eef4ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" rx="36" fill="url(#bg)" />
+  <circle cx="170" cy="115" r="105" fill="#f1c40f" opacity="0.2" />
+  <circle cx="1035" cy="560" r="130" fill="#b71f3b" opacity="0.08" />
+
+  <text x="600" y="72" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle">OSI model overview</text>
+
+  <g transform="translate(160 120)">
+    <g>
+      <rect width="360" height="56" rx="16" fill="#b71f3b" />
+      <text x="26" y="36" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">7. Application</text>
+    </g>
+    <g transform="translate(0 66)">
+      <rect width="360" height="56" rx="16" fill="#c93956" />
+      <text x="26" y="36" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">6. Presentation</text>
+    </g>
+    <g transform="translate(0 132)">
+      <rect width="360" height="56" rx="16" fill="#de5c74" />
+      <text x="26" y="36" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">5. Session</text>
+    </g>
+    <g transform="translate(0 198)">
+      <rect width="360" height="56" rx="16" fill="#0d3b8e" />
+      <text x="26" y="36" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">4. Transport</text>
+    </g>
+    <g transform="translate(0 264)">
+      <rect width="360" height="56" rx="16" fill="#1749aa" />
+      <text x="26" y="36" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">3. Network</text>
+    </g>
+    <g transform="translate(0 330)">
+      <rect width="360" height="56" rx="16" fill="#2e63c5" />
+      <text x="26" y="36" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">2. Data Link</text>
+    </g>
+    <g transform="translate(0 396)">
+      <rect width="360" height="56" rx="16" fill="#f1c40f" />
+      <text x="26" y="36" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">1. Physical</text>
+    </g>
+  </g>
+
+  <g transform="translate(605 142)" font-family="Segoe UI, Arial, sans-serif">
+    <text x="0" y="18" fill="#14213d" font-size="27" font-weight="800">Examples and jobs</text>
+    <text x="0" y="72" fill="#37517e" font-size="22">Application: HTTP, FTP, DNS</text>
+    <text x="0" y="138" fill="#37517e" font-size="22">Presentation: formatting, encryption</text>
+    <text x="0" y="204" fill="#37517e" font-size="22">Session: keeps conversations open</text>
+    <text x="0" y="270" fill="#37517e" font-size="22">Transport: TCP reliability, ports</text>
+    <text x="0" y="336" fill="#37517e" font-size="22">Network: IP addressing and routing</text>
+    <text x="0" y="402" fill="#37517e" font-size="22">Data Link: frames, MAC addresses</text>
+    <text x="0" y="468" fill="#37517e" font-size="22">Physical: cables, radio, signals</text>
+  </g>
+
+  <g fill="none" stroke="#0d3b8e" stroke-width="8" stroke-linecap="round">
+    <path d="M530 82 C560 82, 570 82, 590 82" />
+    <path d="M530 148 C560 148, 570 148, 590 148" />
+    <path d="M530 214 C560 214, 570 214, 590 214" />
+    <path d="M530 346 C560 346, 570 346, 590 346" />
+    <path d="M530 412 C560 412, 570 412, 590 412" />
+    <path d="M530 478 C560 478, 570 478, 590 478" />
+    <path d="M530 544 C560 544, 570 544, 590 544" />
+  </g>
+  <g fill="#0d3b8e">
+    <polygon points="580,72 602,82 580,92" />
+    <polygon points="580,138 602,148 580,158" />
+    <polygon points="580,204 602,214 580,224" />
+    <polygon points="580,336 602,346 580,356" />
+    <polygon points="580,402 602,412 580,422" />
+    <polygon points="580,468 602,478 580,488" />
+    <polygon points="580,534 602,544 580,554" />
+  </g>
+
+  <text x="600" y="628" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">OSI is a teaching model. TCP/IP is the practical protocol suite used on the internet.</text>
+</svg>
