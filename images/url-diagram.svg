@@ -1,0 +1,59 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">URL diagram</title>
+  <desc id="desc">A visual showing a browser address bar, the different parts of a URL, and a destination web page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F9FF"/>
+      <stop offset="1" stop-color="#E7F0FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="132" y1="178" x2="1066" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D3B8E"/>
+      <stop offset="1" stop-color="#B71F3B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="40" fill="url(#bg)"/>
+  <circle cx="130" cy="112" r="58" fill="#F1C40F" fill-opacity="0.18"/>
+  <circle cx="1060" cy="610" r="92" fill="#B71F3B" fill-opacity="0.1"/>
+
+  <text x="600" y="78" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">How a URL points to one exact place on the web</text>
+
+  <rect x="132" y="116" width="936" height="124" rx="24" fill="#FFFFFF" stroke="#0D3B8E" stroke-opacity="0.18" stroke-width="3"/>
+  <rect x="160" y="144" width="880" height="68" rx="18" fill="url(#accent)"/>
+  <circle cx="196" cy="178" r="10" fill="#FFFFFF" fill-opacity="0.95"/>
+  <circle cx="228" cy="178" r="10" fill="#FFFFFF" fill-opacity="0.72"/>
+  <circle cx="260" cy="178" r="10" fill="#FFFFFF" fill-opacity="0.55"/>
+  <text x="302" y="188" fill="#FFFFFF" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">https://www.example.com/guide/page?topic=url</text>
+
+  <path d="M238 270V330" stroke="#B71F3B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M446 270V330" stroke="#B71F3B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M694 270V330" stroke="#B71F3B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M898 270V330" stroke="#B71F3B" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="100" y="330" width="220" height="92" rx="22" fill="#FFFFFF" stroke="#0D3B8E" stroke-opacity="0.18" stroke-width="3"/>
+  <text x="210" y="370" text-anchor="middle" fill="#0D3B8E" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">Protocol</text>
+  <text x="210" y="402" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">`https` tells the browser</text>
+  <text x="210" y="430" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">how to connect securely.</text>
+
+  <rect x="356" y="330" width="220" height="92" rx="22" fill="#FFFFFF" stroke="#0D3B8E" stroke-opacity="0.18" stroke-width="3"/>
+  <text x="466" y="370" text-anchor="middle" fill="#0D3B8E" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">Domain</text>
+  <text x="466" y="402" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">`www.example.com`</text>
+  <text x="466" y="430" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">names the destination site.</text>
+
+  <rect x="612" y="330" width="220" height="92" rx="22" fill="#FFFFFF" stroke="#0D3B8E" stroke-opacity="0.18" stroke-width="3"/>
+  <text x="722" y="370" text-anchor="middle" fill="#0D3B8E" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">Path</text>
+  <text x="722" y="402" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">`/guide/page` chooses</text>
+  <text x="722" y="430" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">the exact resource.</text>
+
+  <rect x="868" y="330" width="232" height="92" rx="22" fill="#FFFFFF" stroke="#0D3B8E" stroke-opacity="0.18" stroke-width="3"/>
+  <text x="984" y="370" text-anchor="middle" fill="#0D3B8E" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">Query</text>
+  <text x="984" y="402" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">`?topic=url` adds</text>
+  <text x="984" y="430" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">extra instructions.</text>
+
+  <path d="M268 504H930" stroke="#0D3B8E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M930 504L900 484" stroke="#0D3B8E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M930 504L900 524" stroke="#0D3B8E" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="210" y="548" width="782" height="104" rx="26" fill="#FFFFFF" stroke="#14213D" stroke-opacity="0.12" stroke-width="3"/>
+  <text x="600" y="594" text-anchor="middle" fill="#B71F3B" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">A URL acts like a web address</text>
+  <text x="600" y="628" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="24">It tells the browser where to go and which page or file to request.</text>
+</svg>
