@@ -34,29 +34,45 @@ const slideshow = document.querySelector(".tcp-slideshow");
 if (slideshow) {
   const track = slideshow.querySelector("[data-slideshow-track]");
   const slides = track ? Array.from(track.querySelectorAll("[data-slide]")) : [];
-  const dots = Array.from(slideshow.querySelectorAll(".slideshow-dot"));
+  const dots = Array.from(slideshow.querySelectorAll("[data-slideshow-dot]"));
   const intervalMs = Number(slideshow.dataset.slideshowInterval) || 5000;
   let activeIndex = 0;
+  let intervalId = null;
 
   const showSlide = (index) => {
     if (!track) {
       return;
     }
 
+    activeIndex = index;
     track.style.transform = `translateX(-${index * 100}%)`;
     slides.forEach((slide, slideIndex) => {
       slide.setAttribute("aria-hidden", String(slideIndex !== index));
     });
     dots.forEach((dot, dotIndex) => {
       dot.classList.toggle("is-active", dotIndex === index);
+      dot.setAttribute("aria-pressed", String(dotIndex === index));
     });
+  };
+
+  const restartAutoplay = () => {
+    if (intervalId) {
+      window.clearInterval(intervalId);
+    }
+
+    intervalId = window.setInterval(() => {
+      showSlide((activeIndex + 1) % slides.length);
+    }, intervalMs);
   };
 
   if (slides.length > 1) {
     showSlide(activeIndex);
-    window.setInterval(() => {
-      activeIndex = (activeIndex + 1) % slides.length;
-      showSlide(activeIndex);
-    }, intervalMs);
+    dots.forEach((dot, dotIndex) => {
+      dot.addEventListener("click", () => {
+        showSlide(dotIndex);
+        restartAutoplay();
+      });
+    });
+    restartAutoplay();
   }
 }

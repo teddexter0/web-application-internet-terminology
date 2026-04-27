@@ -308,14 +308,22 @@ p {
 .slideshow-dot {
   width: 12px;
   height: 12px;
+  padding: 0;
+  border: 0;
   border-radius: 50%;
   background: rgba(13, 59, 142, 0.2);
+  cursor: pointer;
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .slideshow-dot.is-active {
   transform: scale(1.1);
   background: var(--barca-blue);
+}
+
+.slideshow-dot:focus-visible {
+  outline: 3px solid rgba(183, 31, 59, 0.45);
+  outline-offset: 4px;
 }
 
 .links-grid,
