@@ -35,6 +35,8 @@ if (slideshow) {
   const track = slideshow.querySelector("[data-slideshow-track]");
   const slides = track ? Array.from(track.querySelectorAll("[data-slide]")) : [];
   const dots = Array.from(slideshow.querySelectorAll("[data-slideshow-dot]"));
+  const previousButton = slideshow.querySelector("[data-slideshow-prev]");
+  const nextButton = slideshow.querySelector("[data-slideshow-next]");
   const intervalMs = Number(slideshow.dataset.slideshowInterval) || 5000;
   let activeIndex = 0;
   let intervalId = null;
@@ -72,6 +74,14 @@ if (slideshow) {
         showSlide(dotIndex);
         restartAutoplay();
       });
+    });
+    previousButton?.addEventListener("click", () => {
+      showSlide((activeIndex - 1 + slides.length) % slides.length);
+      restartAutoplay();
+    });
+    nextButton?.addEventListener("click", () => {
+      showSlide((activeIndex + 1) % slides.length);
+      restartAutoplay();
     });
     restartAutoplay();
   }

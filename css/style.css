@@ -305,6 +305,34 @@ p {
   margin-top: 14px;
 }
 
+.slideshow-arrows {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.slideshow-arrow {
+  min-width: 58px;
+  min-height: 58px;
+  border: 0;
+  border-radius: 18px;
+  background: linear-gradient(135deg, var(--barca-blue), #1749aa);
+  color: var(--barca-white);
+  font: inherit;
+  font-size: 1.5rem;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.slideshow-arrow:hover,
+.slideshow-arrow:focus-visible {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, var(--barca-red), #d12c4c);
+}
+
 .slideshow-dot {
   width: 12px;
   height: 12px;
@@ -470,6 +498,10 @@ p {
 
   .term-image {
     min-height: 240px;
+  }
+
+  .slideshow-arrow {
+    flex: 1 1 0;
   }
 
   .pager a {
