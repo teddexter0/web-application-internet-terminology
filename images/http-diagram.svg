@@ -1,0 +1,45 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP diagram</title>
+  <desc id="desc">A diagram showing an HTTP request traveling from a browser to a server and an HTTP response returning with page content.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F9FF"/>
+      <stop offset="1" stop-color="#EFF5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="40" fill="url(#bg)"/>
+  <circle cx="1038" cy="128" r="74" fill="#F1C40F" fill-opacity="0.15"/>
+  <circle cx="166" cy="590" r="90" fill="#B71F3B" fill-opacity="0.08"/>
+
+  <text x="600" y="80" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">HTTP defines the request and response conversation</text>
+
+  <rect x="92" y="170" width="304" height="286" rx="30" fill="#FFFFFF" stroke="#0D3B8E" stroke-opacity="0.16" stroke-width="3"/>
+  <text x="244" y="220" text-anchor="middle" fill="#0D3B8E" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">Browser</text>
+  <rect x="154" y="252" width="180" height="104" rx="22" fill="#0D3B8E" fill-opacity="0.1" stroke="#0D3B8E" stroke-width="2"/>
+  <text x="244" y="296" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">GET /index.html</text>
+  <text x="244" y="328" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="20">Request sent by the client</text>
+  <text x="244" y="396" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">The browser asks for a page</text>
+  <text x="244" y="424" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">using agreed web rules.</text>
+
+  <rect x="804" y="170" width="304" height="286" rx="30" fill="#FFFFFF" stroke="#0D3B8E" stroke-opacity="0.16" stroke-width="3"/>
+  <text x="956" y="220" text-anchor="middle" fill="#B71F3B" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">Web Server</text>
+  <rect x="866" y="252" width="180" height="104" rx="22" fill="#B71F3B" fill-opacity="0.1" stroke="#B71F3B" stroke-width="2"/>
+  <text x="956" y="296" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">200 OK</text>
+  <text x="956" y="328" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="20">Response from the server</text>
+  <text x="956" y="396" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">The server sends back the file</text>
+  <text x="956" y="424" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="22">and a status message.</text>
+
+  <path d="M396 296H734" stroke="#0D3B8E" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <path d="M734 296L704 276" stroke="#0D3B8E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M734 296L704 316" stroke="#0D3B8E" stroke-width="6" stroke-linecap="round"/>
+  <text x="566" y="270" text-anchor="middle" fill="#0D3B8E" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">HTTP request</text>
+
+  <path d="M804 360H466" stroke="#B71F3B" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <path d="M466 360L496 340" stroke="#B71F3B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M466 360L496 380" stroke="#B71F3B" stroke-width="6" stroke-linecap="round"/>
+  <text x="634" y="406" text-anchor="middle" fill="#B71F3B" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">HTTP response</text>
+
+  <rect x="162" y="520" width="876" height="132" rx="28" fill="#FFFFFF" stroke="#14213D" stroke-opacity="0.12" stroke-width="3"/>
+  <text x="600" y="572" text-anchor="middle" fill="#B71F3B" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">HTTP is like ordering and receiving.</text>
+  <text x="600" y="612" text-anchor="middle" fill="#14213D" font-family="Segoe UI, Arial, sans-serif" font-size="24">The browser places the order, the server replies with the result, and the page can be displayed.</text>
+</svg>
