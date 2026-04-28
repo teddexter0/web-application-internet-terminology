@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Web 3.0 diagram</title>
+  <desc id="desc">A diagram showing decentralized ownership, smart contracts, and user-controlled data in Web 3.0.</desc>
+  <defs>
+    <linearGradient id="bg" x1="140" y1="80" x2="1060" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#eef4ff" />
+      <stop offset="100%" stop-color="#fff7ef" />
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d3b8e" />
+      <stop offset="100%" stop-color="#b71f3b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="36" fill="url(#bg)" />
+  <circle cx="116" cy="560" r="118" fill="#0d3b8e" opacity="0.08" />
+  <circle cx="1058" cy="120" r="86" fill="#f1c40f" opacity="0.18" />
+
+  <text x="600" y="80" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle">Web 3.0 focuses on user ownership, decentralization, and smart services</text>
+
+  <g transform="translate(445 196)">
+    <circle cx="155" cy="144" r="124" fill="url(#core)" />
+    <circle cx="155" cy="144" r="84" fill="#ffffff" opacity="0.16" />
+    <text x="155" y="132" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle">Your Data</text>
+    <text x="155" y="170" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Controlled by you</text>
+  </g>
+
+  <g transform="translate(116 180)">
+    <rect width="240" height="150" rx="26" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="120" y="58" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Wallet / Identity</text>
+    <text x="120" y="96" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">You sign in and</text>
+    <text x="120" y="124" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">keep your credentials.</text>
+  </g>
+
+  <g transform="translate(116 390)">
+    <rect width="240" height="150" rx="26" fill="#ffffff" stroke="#f0d7de" stroke-width="6" />
+    <text x="120" y="58" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Smart Contracts</text>
+    <text x="120" y="96" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Rules run on a</text>
+    <text x="120" y="124" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">shared network.</text>
+  </g>
+
+  <g transform="translate(844 180)">
+    <rect width="240" height="150" rx="26" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="120" y="58" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Decentralized Apps</text>
+    <text x="120" y="96" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Services are spread</text>
+    <text x="120" y="124" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">across many nodes.</text>
+  </g>
+
+  <g transform="translate(844 390)">
+    <rect width="240" height="150" rx="26" fill="#ffffff" stroke="#f1c40f" stroke-width="6" />
+    <text x="120" y="58" fill="#8b6a00" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">AI + Semantics</text>
+    <text x="120" y="96" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Smarter systems</text>
+    <text x="120" y="124" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">understand context.</text>
+  </g>
+
+  <g fill="none" stroke="#0d3b8e" stroke-width="8" stroke-linecap="round">
+    <path d="M356 255 C404 255, 414 266, 445 294" />
+    <path d="M356 465 C404 465, 414 418, 445 392" stroke="#b71f3b" />
+    <path d="M756 294 C790 266, 806 255, 844 255" />
+    <path d="M756 392 C790 418, 806 465, 844 465" stroke="#f1c40f" />
+  </g>
+
+  <g fill="#0d3b8e">
+    <polygon points="438,286 456,300 432,306" />
+    <polygon points="836,247 854,255 834,270" />
+  </g>
+  <g fill="#b71f3b">
+    <polygon points="438,384 456,398 432,404" />
+  </g>
+  <g fill="#f1c40f">
+    <polygon points="836,457 854,465 834,480" />
+  </g>
+
+  <text x="600" y="616" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">The goal is a web where users keep more control instead of handing everything to one central platform.</text>
+</svg>

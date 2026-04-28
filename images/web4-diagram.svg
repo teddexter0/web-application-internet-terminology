@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Web 4.0 diagram</title>
+  <desc id="desc">A diagram showing AI assistants, connected devices, and real-time services in Web 4.0.</desc>
+  <defs>
+    <linearGradient id="bg" x1="140" y1="90" x2="1060" y2="610" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff8ef" />
+      <stop offset="100%" stop-color="#eef6ff" />
+    </linearGradient>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b71f3b" />
+      <stop offset="100%" stop-color="#0d3b8e" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="36" fill="url(#bg)" />
+  <circle cx="152" cy="122" r="76" fill="#f1c40f" opacity="0.2" />
+  <circle cx="1048" cy="558" r="126" fill="#0d3b8e" opacity="0.08" />
+
+  <text x="600" y="78" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle">Web 4.0 imagines always-connected, AI-driven, real-time experiences</text>
+
+  <g transform="translate(460 190)">
+    <rect width="280" height="244" rx="34" fill="url(#hub)" />
+    <circle cx="140" cy="88" r="42" fill="#ffffff" opacity="0.18" />
+    <path d="M118 96 C118 72, 162 72, 162 96 C162 116, 148 126, 140 138 C132 126, 118 116, 118 96" fill="#ffffff" />
+    <text x="140" y="182" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle">AI Assistant</text>
+    <text x="140" y="220" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Learns and responds</text>
+  </g>
+
+  <g transform="translate(126 216)">
+    <rect width="220" height="126" rx="24" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="110" y="54" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Phone</text>
+    <text x="110" y="90" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Personal, mobile,</text>
+    <text x="110" y="116" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">and always online.</text>
+  </g>
+
+  <g transform="translate(126 404)">
+    <rect width="220" height="126" rx="24" fill="#ffffff" stroke="#f0d7de" stroke-width="6" />
+    <text x="110" y="54" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Smart Home</text>
+    <text x="110" y="90" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Devices exchange</text>
+    <text x="110" y="116" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">data instantly.</text>
+  </g>
+
+  <g transform="translate(854 216)">
+    <rect width="220" height="126" rx="24" fill="#ffffff" stroke="#f1c40f" stroke-width="6" />
+    <text x="110" y="54" fill="#8b6a00" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Wearables</text>
+    <text x="110" y="90" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Context comes from</text>
+    <text x="110" y="116" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">sensors and movement.</text>
+  </g>
+
+  <g transform="translate(854 404)">
+    <rect width="220" height="126" rx="24" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="110" y="54" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Real-Time Services</text>
+    <text x="110" y="90" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">Apps react before</text>
+    <text x="110" y="116" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">you even ask twice.</text>
+  </g>
+
+  <g fill="none" stroke="#0d3b8e" stroke-width="8" stroke-linecap="round">
+    <path d="M346 278 C404 278, 418 278, 460 278" />
+    <path d="M346 468 C404 468, 418 432, 460 402" stroke="#b71f3b" />
+    <path d="M740 278 C792 278, 812 278, 854 278" stroke="#f1c40f" />
+    <path d="M740 402 C792 432, 812 468, 854 468" />
+  </g>
+
+  <g fill="#0d3b8e">
+    <polygon points="452,268 476,278 452,288" />
+    <polygon points="846,458 870,468 846,478" />
+  </g>
+  <g fill="#b71f3b">
+    <polygon points="452,392 476,402 452,412" />
+  </g>
+  <g fill="#f1c40f">
+    <polygon points="846,268 870,278 846,288" />
+  </g>
+
+  <text x="600" y="612" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">The idea is a web that feels embedded in everyday life, not limited to one browser tab.</text>
+</svg>

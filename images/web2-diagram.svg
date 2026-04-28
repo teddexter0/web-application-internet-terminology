@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Web 2.0 diagram</title>
+  <desc id="desc">A diagram showing users creating, sharing, and reacting to content on the interactive web.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fdf7ea" />
+      <stop offset="100%" stop-color="#eef4ff" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d3b8e" />
+      <stop offset="100%" stop-color="#1749aa" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="36" fill="url(#bg)" />
+  <circle cx="108" cy="120" r="74" fill="#f1c40f" opacity="0.22" />
+  <circle cx="1040" cy="560" r="120" fill="#b71f3b" opacity="0.08" />
+
+  <text x="600" y="78" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle">Web 2.0 turned the web into a place where users participate</text>
+
+  <g transform="translate(120 150)">
+    <rect width="360" height="360" rx="30" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <rect x="34" y="34" width="292" height="168" rx="24" fill="url(#screen)" />
+    <rect x="66" y="74" width="108" height="18" rx="9" fill="#ffffff" opacity="0.9" />
+    <rect x="66" y="108" width="194" height="18" rx="9" fill="#dce7ff" />
+    <rect x="66" y="142" width="144" height="18" rx="9" fill="#dce7ff" />
+    <circle cx="88" cy="270" r="28" fill="#b71f3b" />
+    <circle cx="180" cy="270" r="28" fill="#0d3b8e" opacity="0.88" />
+    <circle cx="272" cy="270" r="28" fill="#f1c40f" />
+    <text x="180" y="330" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Users can post, comment, and share</text>
+  </g>
+
+  <g transform="translate(560 162)">
+    <rect width="520" height="146" rx="28" fill="#ffffff" stroke="#f0d7de" stroke-width="6" />
+    <text x="40" y="52" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Interactive platforms</text>
+    <text x="40" y="96" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22">Blogs, social media, wikis, and forums let people add their own content.</text>
+  </g>
+
+  <g transform="translate(560 346)">
+    <rect width="520" height="196" rx="28" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <g transform="translate(38 36)">
+      <rect width="132" height="124" rx="22" fill="#f7faff" stroke="#0d3b8e" stroke-opacity="0.2" stroke-width="3" />
+      <text x="66" y="42" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">Create</text>
+      <text x="66" y="82" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">Write</text>
+      <text x="66" y="108" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">Upload</text>
+    </g>
+    <g transform="translate(194 36)">
+      <rect width="132" height="124" rx="22" fill="#fff8f1" stroke="#b71f3b" stroke-opacity="0.2" stroke-width="3" />
+      <text x="66" y="42" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">Share</text>
+      <text x="66" y="82" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">Link</text>
+      <text x="66" y="108" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">Publish</text>
+    </g>
+    <g transform="translate(350 36)">
+      <rect width="132" height="124" rx="22" fill="#fffcef" stroke="#f1c40f" stroke-opacity="0.5" stroke-width="3" />
+      <text x="66" y="42" fill="#8b6a00" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">React</text>
+      <text x="66" y="82" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">Like</text>
+      <text x="66" y="108" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">Comment</text>
+    </g>
+  </g>
+
+  <path d="M480 330 C520 330, 530 260, 560 236" fill="none" stroke="#0d3b8e" stroke-width="8" stroke-linecap="round" />
+  <path d="M480 372 C520 372, 530 430, 560 444" fill="none" stroke="#b71f3b" stroke-width="8" stroke-linecap="round" />
+  <g fill="#0d3b8e">
+    <polygon points="552,228 576,236 556,252" />
+  </g>
+  <g fill="#b71f3b">
+    <polygon points="552,436 576,444 556,460" />
+  </g>
+
+  <text x="600" y="612" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Unlike the read-only web, Web 2.0 lets people contribute and respond in real time.</text>
+</svg>
