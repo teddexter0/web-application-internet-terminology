@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Web 1.0 diagram</title>
+  <desc id="desc">A diagram showing static pages being published by site owners for readers in the early read-only web.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fdf7ea" />
+      <stop offset="100%" stop-color="#eef4ff" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d3b8e" />
+      <stop offset="100%" stop-color="#1749aa" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="36" fill="url(#bg)" />
+  <circle cx="108" cy="120" r="74" fill="#f1c40f" opacity="0.22" />
+  <circle cx="1040" cy="560" r="120" fill="#b71f3b" opacity="0.08" />
+
+  <text x="600" y="78" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle">Web 1.0 was mainly static, read-only publishing</text>
+
+  <g transform="translate(120 154)">
+    <rect width="344" height="360" rx="30" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="172" y="50" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">Site owner</text>
+    <rect x="42" y="86" width="260" height="166" rx="24" fill="url(#screen)" />
+    <rect x="72" y="118" width="126" height="18" rx="9" fill="#ffffff" opacity="0.92" />
+    <rect x="72" y="154" width="186" height="16" rx="8" fill="#dce7ff" />
+    <rect x="72" y="182" width="156" height="16" rx="8" fill="#dce7ff" />
+    <text x="172" y="310" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">One publisher writes the page</text>
+  </g>
+
+  <g transform="translate(736 154)">
+    <rect width="344" height="360" rx="30" fill="#ffffff" stroke="#f0d7de" stroke-width="6" />
+    <text x="172" y="50" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">Reader</text>
+    <rect x="72" y="98" width="200" height="150" rx="22" fill="#f7faff" stroke="#0d3b8e" stroke-opacity="0.18" stroke-width="3" />
+    <rect x="102" y="128" width="124" height="18" rx="9" fill="#0d3b8e" opacity="0.88" />
+    <rect x="102" y="164" width="112" height="14" rx="7" fill="#d7e3ff" />
+    <rect x="102" y="190" width="138" height="14" rx="7" fill="#d7e3ff" />
+    <text x="172" y="310" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">Most visitors only read and browse</text>
+  </g>
+
+  <path d="M474 334C556 334 602 334 726 334" fill="none" stroke="#0d3b8e" stroke-width="8" stroke-linecap="round" />
+  <polygon points="714,320 740,334 714,348" fill="#0d3b8e" />
+  <text x="600" y="304" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">Published page</text>
+
+  <g transform="translate(272 548)">
+    <rect width="656" height="76" rx="24" fill="#ffffff" stroke="#14213d" stroke-opacity="0.12" stroke-width="4" />
+    <text x="328" y="48" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">It was like reading a digital newspaper with very little user interaction.</text>
+  </g>
+</svg>

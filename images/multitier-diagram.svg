@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Multitier Architecture diagram</title>
+  <desc id="desc">A diagram showing a presentation layer, application logic layer, and data layer working together in a multitier architecture.</desc>
+  <defs>
+    <linearGradient id="bg" x1="100" y1="70" x2="1100" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fdf7ea" />
+      <stop offset="100%" stop-color="#eef4ff" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="36" fill="url(#bg)" />
+  <circle cx="110" cy="116" r="72" fill="#f1c40f" opacity="0.2" />
+  <circle cx="1036" cy="560" r="118" fill="#b71f3b" opacity="0.08" />
+
+  <text x="600" y="78" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle">Multitier architecture separates the interface, logic, and data</text>
+
+  <g transform="translate(175 150)">
+    <rect width="850" height="110" rx="28" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="425" y="48" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">Presentation layer</text>
+    <text x="425" y="82" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Pages, forms, buttons, and screens users interact with</text>
+  </g>
+
+  <g transform="translate(175 290)">
+    <rect width="850" height="110" rx="28" fill="#ffffff" stroke="#f0d7de" stroke-width="6" />
+    <text x="425" y="48" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">Application logic layer</text>
+    <text x="425" y="82" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Rules, processing, and decisions that power the system</text>
+  </g>
+
+  <g transform="translate(175 430)">
+    <rect width="850" height="110" rx="28" fill="#ffffff" stroke="#f1c40f" stroke-opacity="0.5" stroke-width="6" />
+    <text x="425" y="48" fill="#8b6a00" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">Data layer</text>
+    <text x="425" y="82" fill="#37517e" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Databases and storage that keep records safe and organized</text>
+  </g>
+
+  <path d="M600 260V290" fill="none" stroke="#0d3b8e" stroke-width="8" stroke-linecap="round" />
+  <path d="M600 400V430" fill="none" stroke="#b71f3b" stroke-width="8" stroke-linecap="round" />
+  <polygon points="588,282 600,300 612,282" fill="#0d3b8e" />
+  <polygon points="588,422 600,440 612,422" fill="#b71f3b" />
+
+  <text x="600" y="608" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Each layer has a clear job, which makes systems easier to scale, test, and maintain.</text>
+</svg>

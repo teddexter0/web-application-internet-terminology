@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">HTML diagram</title>
+  <desc id="desc">A diagram showing HTML tags structuring a web page into headings, paragraphs, images, and links.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fdf7ea" />
+      <stop offset="100%" stop-color="#eef4ff" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="36" fill="url(#bg)" />
+  <circle cx="110" cy="118" r="72" fill="#f1c40f" opacity="0.2" />
+  <circle cx="1040" cy="560" r="118" fill="#b71f3b" opacity="0.08" />
+
+  <text x="600" y="78" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle">HTML gives a web page its structure</text>
+
+  <g transform="translate(118 154)">
+    <rect width="402" height="372" rx="30" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="201" y="50" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">HTML markup</text>
+    <text x="46" y="108" fill="#b71f3b" font-family="Consolas, 'Courier New', monospace" font-size="22">&lt;h1&gt;Welcome&lt;/h1&gt;</text>
+    <text x="46" y="156" fill="#0d3b8e" font-family="Consolas, 'Courier New', monospace" font-size="22">&lt;p&gt;Page intro text&lt;/p&gt;</text>
+    <text x="46" y="204" fill="#8b6a00" font-family="Consolas, 'Courier New', monospace" font-size="22">&lt;img src="photo.jpg" /&gt;</text>
+    <text x="46" y="252" fill="#37517e" font-family="Consolas, 'Courier New', monospace" font-size="22">&lt;a href="about.html"&gt;Link&lt;/a&gt;</text>
+    <text x="46" y="320" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="22">Tags define what each piece of content is.</text>
+  </g>
+
+  <g transform="translate(664 154)">
+    <rect width="418" height="372" rx="30" fill="#ffffff" stroke="#f0d7de" stroke-width="6" />
+    <text x="209" y="50" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">Rendered page</text>
+    <rect x="48" y="82" width="322" height="206" rx="24" fill="#f7faff" stroke="#0d3b8e" stroke-opacity="0.18" stroke-width="3" />
+    <rect x="78" y="112" width="168" height="24" rx="12" fill="#0d3b8e" />
+    <rect x="78" y="154" width="244" height="16" rx="8" fill="#d7e3ff" />
+    <rect x="78" y="182" width="198" height="16" rx="8" fill="#d7e3ff" />
+    <rect x="78" y="220" width="112" height="64" rx="18" fill="#f1c40f" opacity="0.4" />
+    <rect x="214" y="234" width="116" height="14" rx="7" fill="#b71f3b" opacity="0.24" />
+    <rect x="214" y="260" width="92" height="14" rx="7" fill="#0d3b8e" opacity="0.24" />
+    <text x="209" y="332" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">The browser uses HTML to organize content on screen.</text>
+  </g>
+
+  <path d="M530 340C582 340 604 340 650 340" fill="none" stroke="#0d3b8e" stroke-width="8" stroke-linecap="round" />
+  <polygon points="638,326 664,340 638,354" fill="#0d3b8e" />
+
+  <text x="600" y="610" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">HTML is the skeleton of a page, arranging headings, paragraphs, images, and links.</text>
+</svg>
