@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Extranet diagram</title>
+  <desc id="desc">A diagram showing an internal company network securely shared with selected partners and clients outside the organization.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fdf7ea" />
+      <stop offset="100%" stop-color="#eef4ff" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="36" fill="url(#bg)" />
+  <circle cx="108" cy="120" r="74" fill="#f1c40f" opacity="0.22" />
+  <circle cx="1040" cy="560" r="120" fill="#b71f3b" opacity="0.08" />
+
+  <text x="600" y="78" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" text-anchor="middle">An extranet opens part of a private network to trusted outsiders</text>
+
+  <g transform="translate(118 168)">
+    <rect width="430" height="324" rx="30" fill="#ffffff" stroke="#d7e3ff" stroke-width="6" />
+    <text x="215" y="52" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">Organization network</text>
+    <rect x="52" y="92" width="326" height="176" rx="24" fill="#f7faff" stroke="#0d3b8e" stroke-opacity="0.18" stroke-width="3" />
+    <circle cx="122" cy="150" r="28" fill="#0d3b8e" opacity="0.88" />
+    <circle cx="214" cy="150" r="28" fill="#b71f3b" />
+    <circle cx="306" cy="150" r="28" fill="#f1c40f" />
+    <rect x="98" y="212" width="236" height="18" rx="9" fill="#d7e3ff" />
+    <text x="215" y="298" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Internal staff and resources stay inside the main network.</text>
+  </g>
+
+  <g transform="translate(674 168)">
+    <rect width="408" height="324" rx="30" fill="#ffffff" stroke="#f0d7de" stroke-width="6" />
+    <text x="204" y="52" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">Selected external users</text>
+    <g transform="translate(62 98)">
+      <rect width="84" height="84" rx="22" fill="#fff8f1" stroke="#b71f3b" stroke-opacity="0.2" stroke-width="3" />
+      <text x="42" y="48" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">Partner</text>
+    </g>
+    <g transform="translate(162 98)">
+      <rect width="84" height="84" rx="22" fill="#f7faff" stroke="#0d3b8e" stroke-opacity="0.2" stroke-width="3" />
+      <text x="42" y="48" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="middle">Client</text>
+    </g>
+    <g transform="translate(262 98)">
+      <rect width="84" height="84" rx="22" fill="#fffcef" stroke="#f1c40f" stroke-opacity="0.5" stroke-width="3" />
+      <text x="42" y="48" fill="#8b6a00" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">Vendor</text>
+    </g>
+    <text x="204" y="264" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">They only get limited access to the parts they need.</text>
+  </g>
+
+  <path d="M548 320C610 320 620 320 674 320" fill="none" stroke="#0d3b8e" stroke-width="8" stroke-linecap="round" stroke-dasharray="12 12" />
+  <polygon points="662,306 688,320 662,334" fill="#0d3b8e" />
+  <text x="610" y="288" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">Secure shared access</text>
+
+  <text x="600" y="602" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">An extranet is like inviting approved guests into a private workspace, not opening everything.</text>
+</svg>
