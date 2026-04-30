@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Website vs web application diagram</title>
+  <desc id="desc">A side by side comparison showing a website as information pages and a web application as an interactive task tool.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7f9ff"/>
+      <stop offset="1" stop-color="#edf5ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="110" y1="152" x2="500" y2="586" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d3b8e"/>
+      <stop offset="1" stop-color="#1f66c1"/>
+    </linearGradient>
+    <linearGradient id="red" x1="700" y1="152" x2="1090" y2="586" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b71f3b"/>
+      <stop offset="1" stop-color="#0d3b8e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="720" rx="40" fill="url(#bg)"/>
+  <circle cx="118" cy="122" r="70" fill="#f1c40f" opacity="0.18"/>
+  <circle cx="1055" cy="604" r="98" fill="#b71f3b" opacity="0.08"/>
+
+  <text x="600" y="78" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle">Websites inform. Web applications let users do work.</text>
+
+  <g transform="translate(94 150)">
+    <rect width="440" height="430" rx="32" fill="#ffffff" stroke="#0d3b8e" stroke-opacity="0.16" stroke-width="4"/>
+    <rect x="38" y="42" width="364" height="210" rx="24" fill="url(#blue)"/>
+    <rect x="72" y="82" width="296" height="28" rx="14" fill="#ffffff" opacity="0.9"/>
+    <rect x="72" y="132" width="238" height="22" rx="11" fill="#ffffff" opacity="0.68"/>
+    <rect x="72" y="174" width="272" height="22" rx="11" fill="#ffffff" opacity="0.68"/>
+    <circle cx="342" cy="194" r="34" fill="#f1c40f"/>
+    <text x="220" y="310" fill="#0d3b8e" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="middle">Website</text>
+    <text x="220" y="354" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">Information pages</text>
+    <text x="220" y="388" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">Articles, school pages,</text>
+    <text x="220" y="422" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">news, and portfolios</text>
+  </g>
+
+  <g transform="translate(666 150)">
+    <rect width="440" height="430" rx="32" fill="#ffffff" stroke="#b71f3b" stroke-opacity="0.16" stroke-width="4"/>
+    <rect x="38" y="42" width="364" height="210" rx="24" fill="url(#red)"/>
+    <rect x="78" y="80" width="132" height="30" rx="15" fill="#ffffff" opacity="0.95"/>
+    <rect x="78" y="128" width="284" height="34" rx="17" fill="#ffffff" opacity="0.72"/>
+    <rect x="78" y="184" width="126" height="42" rx="18" fill="#f1c40f"/>
+    <path d="M282 90l42 42-42 42" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="220" y="310" fill="#b71f3b" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" text-anchor="middle">Web Application</text>
+    <text x="220" y="354" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">Interactive tasks</text>
+    <text x="220" y="388" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">Login, edit, calculate,</text>
+    <text x="220" y="422" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">save, and process data</text>
+  </g>
+
+  <g transform="translate(552 310)">
+    <circle cx="48" cy="48" r="48" fill="#ffffff" stroke="#f1c40f" stroke-width="8"/>
+    <text x="48" y="58" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900" text-anchor="middle">VS</text>
+  </g>
+
+  <rect x="236" y="620" width="728" height="56" rx="28" fill="#ffffff" stroke="#14213d" stroke-opacity="0.12" stroke-width="3"/>
+  <text x="600" y="657" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle">Brochure vs tool: one explains, the other helps complete an action.</text>
+</svg>

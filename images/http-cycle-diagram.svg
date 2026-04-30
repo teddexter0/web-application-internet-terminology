@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP request response cycle diagram</title>
+  <desc id="desc">A five step HTTP cycle from entering a URL to the browser displaying content.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7f9ff"/>
+      <stop offset="1" stop-color="#fff7f9"/>
+    </linearGradient>
+    <linearGradient id="center" x1="430" y1="214" x2="770" y2="506" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d3b8e"/>
+      <stop offset="1" stop-color="#b71f3b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="720" rx="40" fill="url(#bg)"/>
+  <circle cx="114" cy="118" r="76" fill="#f1c40f" opacity="0.18"/>
+  <circle cx="1080" cy="610" r="104" fill="#0d3b8e" opacity="0.08"/>
+
+  <text x="600" y="78" fill="#14213d" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle">The HTTP request-response cycle loads a web page</text>
+
+  <circle cx="600" cy="360" r="128" fill="url(#center)"/>
+  <text x="600" y="346" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle">HTTP</text>
+  <text x="600" y="386" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Request -> Response</text>
+
+  <g fill="none" stroke="#0d3b8e" stroke-width="7" stroke-linecap="round">
+    <path d="M330 194c78-76 196-108 306-82"/>
+    <path d="M810 194c78 64 118 164 108 268"/>
+    <path d="M780 566c-92 70-220 86-328 38"/>
+    <path d="M288 486c-42-98-26-214 42-292"/>
+  </g>
+  <g fill="#0d3b8e">
+    <polygon points="632,98 668,122 628,136"/>
+    <polygon points="918,456 940,492 898,482"/>
+    <polygon points="458,604 420,590 454,566"/>
+    <polygon points="314,204 336,166 356,206"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(112 134)">
+      <rect width="280" height="118" rx="24" fill="#ffffff" stroke="#0d3b8e" stroke-opacity="0.18" stroke-width="3"/>
+      <circle cx="48" cy="58" r="28" fill="#0d3b8e"/>
+      <text x="48" y="68" fill="#ffffff" font-size="26" font-weight="900" text-anchor="middle">1</text>
+      <text x="154" y="52" fill="#0d3b8e" font-size="25" font-weight="800" text-anchor="middle">Enter URL</text>
+      <text x="154" y="84" fill="#37517e" font-size="20" text-anchor="middle">The user requests a page.</text>
+    </g>
+    <g transform="translate(806 134)">
+      <rect width="280" height="118" rx="24" fill="#ffffff" stroke="#0d3b8e" stroke-opacity="0.18" stroke-width="3"/>
+      <circle cx="48" cy="58" r="28" fill="#0d3b8e"/>
+      <text x="48" y="68" fill="#ffffff" font-size="26" font-weight="900" text-anchor="middle">2</text>
+      <text x="154" y="52" fill="#0d3b8e" font-size="25" font-weight="800" text-anchor="middle">Send Request</text>
+      <text x="154" y="84" fill="#37517e" font-size="20" text-anchor="middle">The browser asks the server.</text>
+    </g>
+    <g transform="translate(826 444)">
+      <rect width="280" height="118" rx="24" fill="#ffffff" stroke="#b71f3b" stroke-opacity="0.18" stroke-width="3"/>
+      <circle cx="48" cy="58" r="28" fill="#b71f3b"/>
+      <text x="48" y="68" fill="#ffffff" font-size="26" font-weight="900" text-anchor="middle">3</text>
+      <text x="154" y="52" fill="#b71f3b" font-size="25" font-weight="800" text-anchor="middle">Process</text>
+      <text x="154" y="84" fill="#37517e" font-size="20" text-anchor="middle">The server prepares data.</text>
+    </g>
+    <g transform="translate(460 572)">
+      <rect width="280" height="118" rx="24" fill="#ffffff" stroke="#b71f3b" stroke-opacity="0.18" stroke-width="3"/>
+      <circle cx="48" cy="58" r="28" fill="#b71f3b"/>
+      <text x="48" y="68" fill="#ffffff" font-size="26" font-weight="900" text-anchor="middle">4</text>
+      <text x="154" y="52" fill="#b71f3b" font-size="25" font-weight="800" text-anchor="middle">Send Response</text>
+      <text x="154" y="84" fill="#37517e" font-size="20" text-anchor="middle">HTML, CSS, or data returns.</text>
+    </g>
+    <g transform="translate(92 444)">
+      <rect width="280" height="118" rx="24" fill="#ffffff" stroke="#f1c40f" stroke-opacity="0.75" stroke-width="3"/>
+      <circle cx="48" cy="58" r="28" fill="#f1c40f"/>
+      <text x="48" y="68" fill="#14213d" font-size="26" font-weight="900" text-anchor="middle">5</text>
+      <text x="154" y="52" fill="#8b6a00" font-size="25" font-weight="800" text-anchor="middle">Display Content</text>
+      <text x="154" y="84" fill="#37517e" font-size="20" text-anchor="middle">The browser shows the page.</text>
+    </g>
+  </g>
+</svg>
