@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Internet Terminology Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
   <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -25,25 +27,11 @@
       </div>
       <nav class="site-nav" id="site-menu" aria-label="Main navigation">
         <a href="index.html">Home</a>
-        <a href="pages/www.html">WWW</a>
-        <a href="pages/tcp-ip.html">TCP/IP</a>
-        <a href="pages/browsers.html">Web Browser</a>
-        <a href="pages/servers.html">Web Server</a>
-        <a href="pages/url.html">URL</a>
-        <a href="pages/dns.html">DNS</a>
-        <a href="pages/http.html">HTTP</a>
-        <a href="pages/intranet.html">Intranet</a>
-        <a href="pages/extranet.html">Extranet</a>
-        <a href="pages/multitier.html">Multitier Architecture</a>
-        <a href="pages/ftp.html">FTP</a>
-        <a href="pages/html.html">HTML</a>
-        <a href="pages/web1.html">Web 1.0</a>
-        <a href="pages/web2.html">Web 2.0</a>
-        <a href="pages/web3.html">Web 3.0</a>
-        <a href="pages/web4.html">Web 4.0</a>
-        <a href="pages/website-vs-webapp.html">Website vs Web Application</a>
-        <a href="pages/url-parts.html">Parts of a URL</a>
-        <a href="pages/http-cycle.html">HTTP Cycle</a>
+        <a href="index.html#internet-terms">Internet Terms</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog-form.html">Blog Form</a>
+        <a href="signin.html">Sign In</a>
+        <a href="signup.html">Sign Up</a>
       </nav>
     </div>
   </header>
@@ -59,7 +47,7 @@
       <img src="images/home-page-image.svg" alt="Diagram for Internet Terminology Website" class="term-image">
     </section>
 
-    <section class="content-panel">
+    <section class="content-panel" id="internet-terms">
       <h2>Explore All Topics</h2>
       <div class="links-grid">
         <a class="link-card" href="pages/www.html"><h3>World Wide Web (WWW)</h3><p>Learn how the web connects documents and resources across the internet.</p></a>
@@ -81,10 +69,14 @@
         <a class="link-card" href="pages/website-vs-webapp.html"><h3>Website vs Web Application</h3><p>Compare information-focused websites with task-focused web applications.</p></a>
         <a class="link-card" href="pages/url-parts.html"><h3>Parts of a URL</h3><p>Break down the protocol, domain, path, and query in a URL.</p></a>
         <a class="link-card" href="pages/http-cycle.html"><h3>HTTP Request-Response Cycle</h3><p>Follow the steps that happen when a browser requests a web page.</p></a>
+        <a class="link-card featured-link" href="contact.html"><h3>Contact Form</h3><p>Use a Bootstrap-powered contact page for visitor messages.</p></a>
+        <a class="link-card featured-link" href="blog-form.html"><h3>Blog Post Form</h3><p>Practice a publishing/admin form with Bootstrap controls.</p></a>
+        <a class="link-card featured-link" href="signup.html"><h3>Sign-Up Form</h3><p>See a responsive account registration demo with a modern card layout.</p></a>
+        <a class="link-card featured-link" href="signin.html"><h3>Sign-In Form</h3><p>View a compact login demo that adapts to phone and desktop screens.</p></a>
       </div>
       <div class="pager">
-        <a href="pages/http-cycle.html">← HTTP Cycle</a>
-        <a href="pages/www.html">WWW →</a>
+        <a href="pages/http-cycle.html">&larr; HTTP Cycle</a>
+        <a href="pages/www.html">WWW &rarr;</a>
       </div>
     </section>
   </main>
@@ -94,3 +86,4 @@
   </footer>
 </body>
 </html>
+ 

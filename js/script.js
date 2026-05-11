@@ -86,3 +86,23 @@ if (slideshow) {
     restartAutoplay();
   }
 }
+
+const signupForms = document.querySelectorAll(".demo-signup-form");
+
+signupForms.forEach((form) => {
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    const successMessage = form.parentElement.querySelector(".signup-success");
+
+    if (successMessage) {
+      successMessage.classList.remove("d-none");
+      successMessage.focus();
+    }
+  });
+});

@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* Global colors used by every page in the project. */
 :root {
   --barca-blue: #0d3b8e;
   --barca-red: #b71f3b;
@@ -20,6 +21,7 @@ html {
 }
 
 body {
+  
   margin: 0;
   font-family: "Segoe UI", "Poppins", Arial, sans-serif;
   font-size: 18px;
@@ -29,8 +31,10 @@ body {
     radial-gradient(circle at top left, rgba(241, 196, 15, 0.2), transparent 24%),
     radial-gradient(circle at top right, rgba(183, 31, 59, 0.16), transparent 20%),
     linear-gradient(180deg, #ffffff 0%, #eef4ff 50%, #ffffff 100%);
+
 }
 
+/* Basic element defaults keep images, links, and text consistent. */
 a {
   color: inherit;
   text-decoration: none;
@@ -50,6 +54,7 @@ img {
   padding: 18px 0 0;
 }
 
+/* Header and menu styles are shared by the home page and every page in pages/. */
 .nav-wrap {
   position: relative;
   width: min(1180px, calc(100% - 24px));
@@ -147,6 +152,7 @@ img {
   left: 0;
   right: 0;
   display: none;
+  justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
   padding: 18px;
@@ -163,11 +169,13 @@ img {
 }
 
 .site-nav a {
-  padding: 10px 14px;
+  min-width: 126px;
+  padding: 10px 16px;
   border-radius: 999px;
   background: linear-gradient(135deg, rgba(13, 59, 142, 0.1), rgba(183, 31, 59, 0.1));
   border: 1px solid rgba(13, 59, 142, 0.12);
   font-weight: 700;
+  text-align: center;
   color: var(--barca-blue);
   transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
@@ -185,6 +193,7 @@ img {
   padding: 124px 0 52px;
 }
 
+/* Reusable page sections for introductions and content cards. */
 .hero,
 .content-panel {
   background: rgba(255, 255, 255, 0.96);
@@ -361,6 +370,7 @@ p {
   gap: 22px;
 }
 
+/* Topic cards and homepage link cards use the same visual system. */
 .term-card,
 .link-card {
   display: block;
@@ -381,6 +391,11 @@ p {
   transform: translateY(-5px);
   border-color: rgba(183, 31, 59, 0.24);
   box-shadow: 0 18px 34px rgba(13, 59, 142, 0.14);
+}
+
+.featured-link {
+  border-color: rgba(183, 31, 59, 0.26);
+  background: linear-gradient(180deg, #ffffff, rgba(241, 196, 15, 0.12));
 }
 
 .term-label {
@@ -433,6 +448,172 @@ p {
   background: linear-gradient(135deg, var(--barca-red), #d12c4c);
 }
 
+/* Bootstrap form pages: custom styles support the Bootstrap grid and controls. */
+.form-page {
+  overflow: hidden;
+}
+
+.compact-hero {
+  margin-bottom: 22px;
+}
+
+.bootstrap-form {
+  padding: 24px;
+  border: 1px solid var(--border-soft);
+  border-radius: 24px;
+  background: linear-gradient(180deg, #ffffff, rgba(238, 244, 255, 0.88));
+  box-shadow: var(--shadow-card);
+}
+
+.bootstrap-form .form-label,
+.bootstrap-form .form-check-label {
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.bootstrap-form .form-control,
+.bootstrap-form .form-select {
+  min-height: 52px;
+  border-color: rgba(13, 59, 142, 0.22);
+  border-radius: 16px;
+  font-size: 1rem;
+}
+
+.bootstrap-form textarea.form-control {
+  min-height: auto;
+}
+
+.bootstrap-form .form-control:focus,
+.bootstrap-form .form-select:focus,
+.bootstrap-form .form-check-input:focus {
+  border-color: var(--barca-blue);
+  box-shadow: 0 0 0 0.25rem rgba(13, 59, 142, 0.18);
+}
+
+.bootstrap-form .btn-primary {
+  border: 0;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--barca-blue), #1749aa);
+  font-weight: 800;
+}
+
+.bootstrap-form .btn-primary:hover,
+.bootstrap-form .btn-primary:focus-visible {
+  background: linear-gradient(135deg, var(--barca-red), #d12c4c);
+}
+
+.bootstrap-form .btn-outline-secondary {
+  border-radius: 16px;
+  font-weight: 800;
+}
+
+.demo-note {
+  margin-bottom: 22px;
+  border: 1px solid rgba(13, 59, 142, 0.18);
+  border-radius: 16px;
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.auth-shell {
+  display: grid;
+  min-height: calc(100vh - 120px);
+  place-items: center;
+}
+
+.auth-card {
+  width: min(100%, 560px);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.97);
+}
+
+.auth-title {
+  margin-bottom: 10px;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.auth-subtitle {
+  margin-bottom: 22px;
+  color: var(--text-muted);
+}
+
+.auth-form {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.auth-switch {
+  margin: 22px 0 0;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.auth-switch a,
+.form-helper-link {
+  color: var(--barca-blue);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.admin-form {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.admin-section,
+.contact-info {
+  height: 100%;
+  padding: 24px;
+  border: 1px solid var(--border-soft);
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: var(--shadow-card);
+}
+
+.admin-section h2,
+.contact-info h2 {
+  margin-bottom: 18px;
+  font-size: 1.45rem;
+}
+
+.side-panel {
+  background: linear-gradient(180deg, #ffffff, rgba(238, 244, 255, 0.92));
+}
+
+.contact-info {
+  background: linear-gradient(145deg, rgba(13, 59, 142, 0.96), rgba(183, 31, 59, 0.9));
+  color: var(--barca-white);
+}
+
+.contact-info p {
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.contact-detail {
+  display: grid;
+  gap: 4px;
+  padding: 16px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contact-detail strong {
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.form-note {
+  height: 100%;
+  padding: 24px;
+  border: 1px solid rgba(183, 31, 59, 0.16);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
 .site-footer {
   width: min(1120px, calc(100% - 24px));
   margin: 0 auto;
@@ -448,6 +629,7 @@ p {
   text-transform: uppercase;
 }
 
+/* Tablet adjustments keep the fixed header and content spacing comfortable. */
 @media (max-width: 900px) {
   .brand-title {
     font-size: 1rem;
@@ -462,6 +644,7 @@ p {
   }
 }
 
+/* Mobile adjustments stack navigation, cards, and buttons for small screens. */
 @media (max-width: 700px) {
   body {
     font-size: 17px;
@@ -486,6 +669,7 @@ p {
   }
 
   .site-nav a {
+    min-width: 0;
     width: 100%;
     text-align: center;
   }
@@ -507,5 +691,17 @@ p {
   .pager a {
     width: 100%;
     text-align: center;
+  }
+
+  .bootstrap-form,
+  .form-note,
+  .admin-section,
+  .contact-info {
+    padding: 18px;
+    border-radius: 20px;
+  }
+
+  .auth-shell {
+    min-height: auto;
   }
 }
